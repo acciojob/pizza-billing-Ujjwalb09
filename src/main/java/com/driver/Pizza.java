@@ -15,7 +15,7 @@ public class Pizza {
     public Pizza(Boolean isVeg){
         this.isVeg = isVeg;
 
-        if(isVeg = true)
+        if(isVeg)
         {
             this.price += 300;
         }
@@ -96,7 +96,7 @@ public class Pizza {
 
         if(paperBag)
         {
-            bill += "Paper Added: 20\n";
+            bill += "Paperbag Added: 20\n";
         }
 
         String totalPrice = Integer.toString(price);
